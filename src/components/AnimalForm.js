@@ -5,7 +5,6 @@ import * as yup from 'yup';
 import axios from 'axios';
 
 const AnimalForm = (props, { status }) => {
-  console.log(status)
   const [animals, setAnimals] = useState([])
 
   useEffect(() => {
